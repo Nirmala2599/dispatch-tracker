@@ -137,11 +137,13 @@ const handleSubmit = async () => {
 
       </div>
 
-      <button className="btn btn-primary" 
-      onClick={handleSubmit}
-      >
-        Save PO
-      </button>
+      <div className="col-md-6 mb-3">
+        <button className="btn btn-primary" 
+          onClick={handleSubmit}
+        >
+          Save PO
+        </button>
+      </div>
 
     </div>
   );

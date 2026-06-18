@@ -40,7 +40,7 @@ function Dashboard() {
 
       <div className="row">
 
-        <div className="col-md-3">
+        <div className="col-12 col-sm-6 col-lg-3 mb-3">
           <div className="card text-center shadow">
             <div className="card-body">
               <h5>Total PO</h5>

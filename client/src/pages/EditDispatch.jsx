@@ -28,7 +28,7 @@ function EditDispatch() {
 
       <h2>Update Dispatch</h2>
 
-      <div className="mb-3">
+      <div className="col-md-6 mb-3">
         <label>Committed Dispatch Date</label>
         <input
           type="date"
@@ -40,7 +40,7 @@ function EditDispatch() {
         />
       </div>
 
-      <div className="mb-3">
+      <div className="col-md-6 mb-3">
         <label>Actual Dispatch Date</label>
         <input
           type="date"
@@ -51,12 +51,14 @@ function EditDispatch() {
           }
         />
       </div>
-      <button
-  className="btn btn-success"
-  onClick={handleSave}
->
-  Save Dispatch
-</button>
+      <div className="col-md-6 mb-3">
+        <button
+          className="btn btn-success"
+          onClick={handleSave}
+        >
+          Save Dispatch
+        </button>
+      </div>
 
     </div>
   );

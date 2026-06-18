@@ -146,7 +146,7 @@ const exportToExcel = () => {
     <div className="container mt-4">
       <h2>Purchase Orders</h2>
       <div className="row mb-3">
-  <div className="col-md-6">
+  <div className="col-12 col-md-8 mb-2">
     <input
       type="text"
       className="form-control"
@@ -156,7 +156,8 @@ const exportToExcel = () => {
     />
   </div>
 
-  <div className="col-md-3">
+  
+  <div className="col-12 col-md-4">
     <select
       className="form-select"
       value={statusFilter}
@@ -177,7 +178,9 @@ const exportToExcel = () => {
     Export to Excel
   </button>
 </div>
+      <div className="table-responsive">
 
+<table className="table table-bordered table-hover"></table>
 
       <table className="table table-bordered">
         <thead>
@@ -243,6 +246,7 @@ const exportToExcel = () => {
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 }
